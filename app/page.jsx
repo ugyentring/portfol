@@ -17,7 +17,7 @@ const Home = () => {
               Hello I am <br />{" "}
               <span className="text-accent">Ugyen Tshering</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className="max-w-[500px] mb-9 text-black">
               Fond of crafting elegant digital experiences with MERN stack and
               Web 3.0 Technologies like Solidity, Hardhat, EtherJS and Alchemy
             </p>
