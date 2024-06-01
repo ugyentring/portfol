@@ -15,6 +15,7 @@ import {
   SiBootstrap,
 } from "react-icons/si";
 
+//about myself
 const about = {
   title: "About Me",
   description:
@@ -55,6 +56,7 @@ const about = {
   ],
 };
 
+//experience
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
@@ -83,6 +85,87 @@ const experience = {
     },
   ],
 };
+
+//education
+const education = {
+  icon: "/assets/resume/cap.svg",
+  title: "My Education",
+  description:
+    "Always been a geek from my childhood. Loved exploring tech gadgets and learning about it",
+  items: [
+    {
+      institution: "Gyalpozhing College of Information Technology",
+      degree: "Computer Science",
+      duration: "2022-2026",
+    },
+    {
+      institution: "Pakshikha Central School",
+      degree: "Science (PCM)",
+      duration: "2020-2021",
+    },
+    {
+      institution: "Kamji Central School",
+      degree: "Information Technology",
+      duration: "2016-2019",
+    },
+    {
+      institution: "Kezari Primary School",
+      degree: "Basic Education",
+      duration: "2009-2015",
+    },
+  ],
+};
+
+//my skillset
+const skills = {
+  title: "My Skills",
+  description: "I have pretty good knowledge in these technologies",
+  skillList: [
+    {
+      icon: <FaHtml5 />,
+      name: "html 5",
+    },
+    {
+      icon: <FaCss3 />,
+      name: "css 3",
+    },
+    {
+      icon: <FaJs />,
+      name: "JavaScript",
+    },
+    {
+      icon: <FaReact />,
+      name: "react.js",
+    },
+    {
+      icon: <SiNextdotjs />,
+      name: "next.js",
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "tailwind.css",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "node.js",
+    },
+    {
+      icon: <FaFigma />,
+      name: "figma",
+    },
+    {
+      icon: <SiSolidity />,
+      name: "solidity",
+    },
+    {
+      icon: <SiBootstrap />,
+      name: "bootstrap",
+    },
+  ],
+};
+
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+ 
 
 const Resume = () => {
   return <div>resumepage</div>;
